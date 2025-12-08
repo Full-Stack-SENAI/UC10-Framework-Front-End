@@ -1,0 +1,73 @@
+/* O cartão branco centralizado */
+.container {
+  background-color: white;
+  width: 400px;
+  margin: 50px auto; /* Centraliza na tela */
+  padding: 20px;
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Onde fica o input e o botão de adicionar */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1; /* Ocupa o espaço restante */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+/* Cores dos botões */
+.btn-adicionar {
+  background-color: #007bff; /* Azul */
+}
+
+.btn-adicionar:hover {
+  background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+.btn-remover {
+  background-color: #dc3545; /* Vermelho */
+  font-size: 0.8rem;
+}
+
+.btn-remover:hover {
+  background-color: #a71d2a;
+}
+
+/* Estilo da lista */
+ul {
+  list-style: none; /* Tira as bolinhas da lista */
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Texto na esquerda, botão na direita */
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}

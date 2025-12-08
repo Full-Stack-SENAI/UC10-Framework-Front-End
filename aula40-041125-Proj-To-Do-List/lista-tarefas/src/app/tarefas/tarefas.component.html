@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>📋 Lista de Tarefas</h2>
+
+  <div class="input-group">
+    <input type="text" [(ngModel)]="novaTarefa" placeholder="Digite uma tarefa...">
+    <button class="btn-adicionar" (click)="adicionarTarefa()">Adicionar</button>
+  </div>
+
+  <ul>
+    <li *ngFor="let tarefa of tarefas; let i = index">
+      <span>{{ tarefa }}</span>
+      <button class="btn-remover" (click)="removerTarefa(i)">Remover</button>
+    </li>
+  </ul>
+</div>
