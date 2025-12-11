@@ -1,1 +1,29 @@
-<p>contatos works!</p>
+<div class="container">
+  <h1>📞Agenda de Contatos</h1>
+  
+  <div class="form">
+    <input type="text" 
+           placeholder="Nome" 
+           [(ngModel)]="novoNome"/>
+
+    <input type="text" 
+           placeholder="Telefone" 
+           [(ngModel)]="novoTelefone"/>
+
+    <button (click)="adicionarContato()">Adicionar</button>
+  </div>
+
+  <ul>
+    <li *ngFor="let c of contatos; let i = index">
+      <div>
+        <strong>{{ c.nome }}</strong>
+        <span>{{ c.telefone }}</span>
+      </div>
+      <button class="remover" (click)="removerContato(i)">Remover</button>
+    </li>
+  </ul>
+
+  <p class="vazio" *ngIf="contatos.length === 0">
+    Nenhum contato cadastrado.
+  </p> 
+</div>
