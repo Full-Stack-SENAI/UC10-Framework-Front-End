@@ -1,43 +1,43 @@
 {
-    // --- 🎨 APARÊNCIA (Igual ao seu Python) ---
-    "window.zoomLevel": 1,
-    "editor.fontSize": 18,
-    "workbench.colorTheme": "Sweet Dracula",
-    "workbench.iconTheme": "material-icon-theme",
-    "terminal.integrated.fontSize": 18,
+  // --- 🎨 APARÊNCIA (Igual ao seu Python) ---
+  "window.zoomLevel": 1,
+  "editor.fontSize": 18,
+  "workbench.colorTheme": "One Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontSize": 18,
 
-    // Fontes
-    "editor.fontFamily": "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', monospace",
-    "editor.fontLigatures": false,
+  // Fontes
+  "editor.fontFamily": "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', monospace",
+  "editor.fontLigatures": false,
 
-    // --- 🚀 CONFIGURAÇÃO PRINCIPAL DO SENAI ---
-    // Força o terminal a ser o GIT BASH nesta pasta
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // --- 🚀 CONFIGURAÇÃO PRINCIPAL DO SENAI ---
+  // Força o terminal a ser o GIT BASH nesta pasta
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
 
-    // --- 💻 PERFIS DE TERMINAL ---
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Git Bash": {
-            "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
-            "icon": "terminal-bash"
-        }
+  // --- 💻 PERFIS DE TERMINAL ---
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
+    "Git Bash": {
+      "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
+      "icon": "terminal-bash"
+    }
+  },
 
-    // --- COMPORTAMENTO GERAL (Web/Full Stack) ---
-    "editor.rulers": [80, 120],
-    "explorer.compactFolders": false,
-    
-    // Formatar ao salvar (Ajuda muito em HTML/CSS)
-    "editor.formatOnSave": true, 
-    
-    "cSpell.enabled": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    
-    // Configurações do Git
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false
+  // --- COMPORTAMENTO GERAL (Web/Full Stack) ---
+  "editor.rulers": [80, 120],
+  "explorer.compactFolders": false,
+
+  // Formatar ao salvar (Ajuda muito em HTML/CSS)
+  "editor.formatOnSave": true,
+
+  "cSpell.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Configurações do Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false
 }
