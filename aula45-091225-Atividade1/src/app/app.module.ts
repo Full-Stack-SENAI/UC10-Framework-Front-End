@@ -9,7 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { RodapeComponent } from './rodape/rodape.component';
 
 /*Importações Angular Material*/
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatGridListModule } from '@angular/material/grid-list';
